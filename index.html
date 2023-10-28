@@ -3,13 +3,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer Web</title>
+
+    <!--AGRENADO NORMALIZE CSS-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--AGREGANDO GOOGLE FONT KRUB-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Krub:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--AGREGANDO MI HOJA DE ESTILO-->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Adolfo Hernández Freelancer</h1>
+        <h1 class="titulo">Adolfo Hernández <span>Freelancer</span></h1>
     </header>
     
-    <nav>
+    <nav class="navegacion-principal">
         <a href="#">Inicio</a>
         <a href="#">Nosotros</a>
         <a href="#">Clientes</a>
@@ -107,7 +120,7 @@
                 <div>
                     <button type="submit" value="Enviar">Enviar</button>
                 </div>
-                
+
             </fieldset>
         </form>
 
